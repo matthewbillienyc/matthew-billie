@@ -8,8 +8,15 @@
 </head>
 <body>
 <%= render 'layouts/nav' %>
-
-<%= yield %>
-
+<div class='container'>
+  <div class='row'>
+    <div class='col-xs-2'>
+      <%= render 'layouts/leftmenu' %>
+    </div>
+    <div class='cols-xs-10'>
+      <%= yield %>
+    </div>
+  </div>
+</div>
 </body>
 </html>

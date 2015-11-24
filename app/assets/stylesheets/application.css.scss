@@ -5011,7 +5011,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #f7f7f7;
+  background-color: white;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -6911,4 +6911,24 @@ legend {
 }
 .modal .close {
   color: #333333;
+}
+
+.top-left-mcb {
+  background-color: #B3B3B3;
+}
+
+.top-right-mcb {
+  background-color: #B3B3B3;
+}
+
+.top-left-mcb:hover {
+  background-color: #FFFFFF;
+}
+
+.top-right-mcb:hover {
+  background-color: #FFFFFF;
+}
+
+p.small-text-mcb {
+  font-size: 18px;
 }
